@@ -46,7 +46,7 @@ config_raw = {}
 config_raw.update(config)
 
 path = os.path.dirname(os.path.realpath(__file__)) + "/config"
-if os.getenv("AutoMihoyoBBS_config_path") is not None:
+if os.getenv("AutoMihoyoBBS_config_andrew") is not None:
     path = os.getenv("AutoMihoyoBBS_config_path")
 config_Path = f"{path}/config.yaml"
 
